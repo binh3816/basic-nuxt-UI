@@ -4,7 +4,7 @@
             <v-list-item title="My Application" subtitle="Vuetify"></v-list-item>
             <v-divider></v-divider>
             <v-list-item v-for="(link, index) in links" :key="index" :to="link.to" :title="link.title"></v-list-item>
-            
+            <b v-tooltip="'bla'">bla</b>
         </v-navigation-drawer>
         <v-main class="d-flex align-center justify-center" style="min-height: 300px">
             <slot></slot>
