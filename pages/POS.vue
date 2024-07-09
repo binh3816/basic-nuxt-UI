@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header title="POS"></Header>
-    <h3>POS</h3>
+    <h3>POS blalab</h3>
   </div>
 </template>
 
